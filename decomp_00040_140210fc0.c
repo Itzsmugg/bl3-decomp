@@ -1,0 +1,4015 @@
+// batch file for Borderlands3.exe — decompiled pseudocode, blocks marked by // FUNCTION <entry> <name>
+
+// FUNCTION 140210fc0 EOL_String'' body=115 status=ok
+// SIG undefined EOL_String''(void)
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void `dynamic_initializer_for_'FDlgConfigWriter::EOL_String__(void)
+
+{
+  undefined *puVar1;
+  int iVar2;
+  longlong lVar3;
+  
+  puVar1 = PTR_DAT_1463de6c0;
+  if ((PTR_DAT_1463de6c0 != (undefined *)0x0) && (*(short *)PTR_DAT_1463de6c0 != 0)) {
+    lVar3 = -1;
+    do {
+      lVar3 = lVar3 + 1;
+    } while (*(short *)(PTR_DAT_1463de6c0 + lVar3 * 2) != 0);
+    iVar2 = (int)lVar3 + 1;
+    _DAT_146893728 = iVar2;
+    if (0 < iVar2) {
+      TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_146893720,0);
+    }
+    FGenericPlatformString::Memcpy(DAT_146893720,puVar1,(longlong)iVar2 * 2);
+  }
+  atexit((_func_5014 *)&LAB_143e6dfd0);
+  return;
+}
+
+
+
+// FUNCTION 140211040 FUN_140211040 body=59 status=ok
+// SIG undefined FUN_140211040(void)
+
+void FUN_140211040(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e44f0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e44f0,L"AbilityData",0x18);
+  atexit((_func_5014 *)&LAB_143e6dff0);
+  return;
+}
+
+
+
+// FUNCTION 140211120 FUN_140211120 body=59 status=ok
+// SIG undefined FUN_140211120(void)
+
+void FUN_140211120(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e44a0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e44a0,L"ArtifactJsonData",0x22);
+  atexit((_func_5014 *)&LAB_143e6e010);
+  return;
+}
+
+
+
+// FUNCTION 140211160 FUN_140211160 body=59 status=ok
+// SIG undefined FUN_140211160(void)
+
+void FUN_140211160(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4420,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4420,L"ArtifactSerialNumber",0x2a);
+  atexit((_func_5014 *)&LAB_143e6e030);
+  return;
+}
+
+
+
+// FUNCTION 1402115a0 `dynamic_initializer_for_'kAchievementName_SimultaneousInfected'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'kAchievementName_SimultaneousInfected''(void)
+
+void `anonymous_namespace'::_dynamic_initializer_for__kAchievementName_SimultaneousInfected__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e44c0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e44c0,L"BodyCustomizationHash",0x2c);
+  atexit((_func_5014 *)&LAB_143e6e050);
+  return;
+}
+
+
+
+// FUNCTION 1402115e0 FUN_1402115e0 body=59 status=ok
+// SIG undefined FUN_1402115e0(void)
+
+void FUN_1402115e0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4350,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4350,L"CanJoin",0x10);
+  atexit((_func_5014 *)&LAB_143e6e070);
+  return;
+}
+
+
+
+// FUNCTION 140211660 `dynamic_initializer_for_'PipelineExtension'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PipelineExtension''(void)
+
+void _dynamic_initializer_for__PipelineExtension__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4490,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4490,L"ClassItemJsonData",0x24);
+  atexit((_func_5014 *)&LAB_143e6e090);
+  return;
+}
+
+
+
+// FUNCTION 1402116a0 `dynamic_initializer_for_'kAchievementName_SimultaneousInfected'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'kAchievementName_SimultaneousInfected''(void)
+
+void `anonymous_namespace'::_dynamic_initializer_for__kAchievementName_SimultaneousInfected__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4410,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4410,L"ClassItemSerialNumber",0x2c);
+  atexit((_func_5014 *)&LAB_143e6e0b0);
+  return;
+}
+
+
+
+// FUNCTION 140211720 `dynamic_initializer_for_'PerfCounter_NumServerMoveCorrections'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PerfCounter_NumServerMoveCorrections''(void)
+
+void _dynamic_initializer_for__PerfCounter_NumServerMoveCorrections__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4540,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4540,L"CrewChallengesCompletion",0x32);
+  atexit((_func_5014 *)&LAB_143e6e0d0);
+  return;
+}
+
+
+
+// FUNCTION 1402117a0 FUN_1402117a0 body=59 status=ok
+// SIG undefined FUN_1402117a0(void)
+
+void FUN_1402117a0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e45a0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e45a0,L"DateTime",0x12);
+  atexit((_func_5014 *)&LAB_143e6e0f0);
+  return;
+}
+
+
+
+// FUNCTION 1402118c0 `dynamic_initializer_for_'kResultStringCannotLoadPreset'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'kResultStringCannotLoadPreset''(void)
+
+void _dynamic_initializer_for__kResultStringCannotLoadPreset__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e44e0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e44e0,L"EmoteCustomizationHash",0x2e);
+  atexit((_func_5014 *)&LAB_143e6e110);
+  return;
+}
+
+
+
+// FUNCTION 140211900 `dynamic_initializer_for_'AutogeneratedDefaultValueName'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'AutogeneratedDefaultValueName''(void)
+
+void PinHelpers::_dynamic_initializer_for__AutogeneratedDefaultValueName__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4530,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4530,L"EnemyChallengesCompletion",0x34);
+  atexit((_func_5014 *)&LAB_143e6e130);
+  return;
+}
+
+
+
+// FUNCTION 140211980 `dynamic_initializer_for_'kResultStringAssetDefAlrealdyLoaded'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'kResultStringAssetDefAlrealdyLoaded''(void)
+
+void _dynamic_initializer_for__kResultStringAssetDefAlrealdyLoaded__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4550,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4550,L"ExplorationChallengesCompletion",0x40);
+  atexit((_func_5014 *)&LAB_143e6e150);
+  return;
+}
+
+
+
+// FUNCTION 140211a40 FUN_140211a40 body=59 status=ok
+// SIG undefined FUN_140211a40(void)
+
+void FUN_140211a40(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4380,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4380,L"FriendActivityStatus",0x2a);
+  atexit((_func_5014 *)&LAB_143e6e170);
+  return;
+}
+
+
+
+// FUNCTION 140211a80 FUN_140211a80 body=59 status=ok
+// SIG undefined FUN_140211a80(void)
+
+void FUN_140211a80(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e45f0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e45f0,L"ChallengeInfo",0x1c);
+  atexit((_func_5014 *)&LAB_143e6e190);
+  return;
+}
+
+
+
+// FUNCTION 140211ac0 `dynamic_initializer_for_'kAchievementName_SimultaneousInfected'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'kAchievementName_SimultaneousInfected''(void)
+
+void `anonymous_namespace'::_dynamic_initializer_for__kAchievementName_SimultaneousInfected__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e45e0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e45e0,L"FriendCrewQuarterInfo",0x2c);
+  atexit((_func_5014 *)&LAB_143e6e1b0);
+  return;
+}
+
+
+
+// FUNCTION 140211b00 `dynamic_initializer_for_'PipelineExtension'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PipelineExtension''(void)
+
+void _dynamic_initializer_for__PipelineExtension__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e45c0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e45c0,L"FriendLoadOutInfo",0x24);
+  atexit((_func_5014 *)&LAB_143e6e1d0);
+  return;
+}
+
+
+
+// FUNCTION 140211b40 `dynamic_initializer_for_'PerfCounter_NumServerMoveCorrections'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PerfCounter_NumServerMoveCorrections''(void)
+
+void _dynamic_initializer_for__PerfCounter_NumServerMoveCorrections__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e45b0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e45b0,L"FriendStatusPresenceInfo",0x32);
+  atexit((_func_5014 *)&LAB_143e6e1f0);
+  return;
+}
+
+
+
+// FUNCTION 140211b80 FUN_140211b80 body=59 status=ok
+// SIG undefined FUN_140211b80(void)
+
+void FUN_140211b80(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e45d0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e45d0,L"FriendSkillTreeInfo",0x28);
+  atexit((_func_5014 *)&LAB_143e6e210);
+  return;
+}
+
+
+
+// FUNCTION 140211bc0 `dynamic_initializer_for_'PipelineExtension'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PipelineExtension''(void)
+
+void _dynamic_initializer_for__PipelineExtension__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4500,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4500,L"FriendStatusThing",0x24);
+  atexit((_func_5014 *)&LAB_143e6e230);
+  return;
+}
+
+
+
+// FUNCTION 140211c00 FUN_140211c00 body=59 status=ok
+// SIG undefined FUN_140211c00(void)
+
+void FUN_140211c00(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4510,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4510,L"GameCompletion",0x1e);
+  atexit((_func_5014 *)&LAB_143e6e250);
+  return;
+}
+
+
+
+// FUNCTION 140211c40 `dynamic_initializer_for_'WasDebuggerStoreKey'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'WasDebuggerStoreKey''(void)
+
+void SessionManagerDefs::_dynamic_initializer_for__WasDebuggerStoreKey__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4470,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4470,L"GrenadeJsonData",0x20);
+  atexit((_func_5014 *)&LAB_143e6e270);
+  return;
+}
+
+
+
+// FUNCTION 140211c80 FUN_140211c80 body=59 status=ok
+// SIG undefined FUN_140211c80(void)
+
+void FUN_140211c80(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e43f0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e43f0,L"GrenadeSerialNumber",0x28);
+  atexit((_func_5014 *)&LAB_143e6e290);
+  return;
+}
+
+
+
+// FUNCTION 140211cc0 FUN_140211cc0 body=59 status=ok
+// SIG undefined FUN_140211cc0(void)
+
+void FUN_140211cc0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4390,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4390,L"GuardianRank",0x1a);
+  atexit((_func_5014 *)&LAB_143e6e2b0);
+  return;
+}
+
+
+
+// FUNCTION 140211d00 FUN_140211d00 body=59 status=ok
+// SIG undefined FUN_140211d00(void)
+
+void FUN_140211d00(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4370,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4370,L"HasSelectedCharacter",0x2a);
+  atexit((_func_5014 *)&LAB_143e6e2d0);
+  return;
+}
+
+
+
+// FUNCTION 140211d40 `dynamic_initializer_for_'kAchievementName_SimultaneousInfected'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'kAchievementName_SimultaneousInfected''(void)
+
+void `anonymous_namespace'::_dynamic_initializer_for__kAchievementName_SimultaneousInfected__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e44b0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e44b0,L"HeadCustomizationHash",0x2c);
+  atexit((_func_5014 *)&LAB_143e6e2f0);
+  return;
+}
+
+
+
+// FUNCTION 140211f30 FUN_140211f30 body=59 status=ok
+// SIG undefined FUN_140211f30(void)
+
+void FUN_140211f30(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e42c0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e42c0,L"Level",0xc);
+  atexit((_func_5014 *)&LAB_143e6e310);
+  return;
+}
+
+
+
+// FUNCTION 140211f70 FUN_140211f70 body=59 status=ok
+// SIG undefined FUN_140211f70(void)
+
+void FUN_140211f70(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4320,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4320,L"LocationX",0x14);
+  atexit((_func_5014 *)&LAB_143e6e330);
+  return;
+}
+
+
+
+// FUNCTION 140211fb0 FUN_140211fb0 body=59 status=ok
+// SIG undefined FUN_140211fb0(void)
+
+void FUN_140211fb0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4330,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4330,L"LocationY",0x14);
+  atexit((_func_5014 *)&LAB_143e6e350);
+  return;
+}
+
+
+
+// FUNCTION 140211ff0 FUN_140211ff0 body=59 status=ok
+// SIG undefined FUN_140211ff0(void)
+
+void FUN_140211ff0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4340,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4340,L"LocationZ",0x14);
+  atexit((_func_5014 *)&LAB_143e6e370);
+  return;
+}
+
+
+
+// FUNCTION 140212030 FUN_140212030 body=59 status=ok
+// SIG undefined FUN_140212030(void)
+
+void FUN_140212030(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4360,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4360,L"LookingForHelp",0x1e);
+  atexit((_func_5014 *)&LAB_143e6e390);
+  return;
+}
+
+
+
+// FUNCTION 140212070 FUN_140212070 body=59 status=ok
+// SIG undefined FUN_140212070(void)
+
+void FUN_140212070(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e42d0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e42d0,L"MapName",0x10);
+  atexit((_func_5014 *)&LAB_143e6e3b0);
+  return;
+}
+
+
+
+// FUNCTION 1402120f0 FUN_1402120f0 body=59 status=ok
+// SIG undefined FUN_1402120f0(void)
+
+void FUN_1402120f0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4310,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4310,L"MissionHash",0x18);
+  atexit((_func_5014 *)&LAB_143e6e3d0);
+  return;
+}
+
+
+
+// FUNCTION 140212370 FUN_140212370 body=59 status=ok
+// SIG undefined FUN_140212370(void)
+
+void FUN_140212370(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e42f0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e42f0,L"PartyPlayerCount",0x22);
+  atexit((_func_5014 *)&LAB_143e6e3f0);
+  return;
+}
+
+
+
+// FUNCTION 140212490 `dynamic_initializer_for_'AutogeneratedDefaultValueName'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'AutogeneratedDefaultValueName''(void)
+
+void PinHelpers::_dynamic_initializer_for__AutogeneratedDefaultValueName__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4300,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4300,L"PlayerClassIdentifierHash",0x34);
+  atexit((_func_5014 *)&LAB_143e6e410);
+  return;
+}
+
+
+
+// FUNCTION 1402124d0 FUN_1402124d0 body=59 status=ok
+// SIG undefined FUN_1402124d0(void)
+
+void FUN_1402124d0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4590,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4590,L"PlayerId",0x12);
+  atexit((_func_5014 *)&LAB_143e6e430);
+  return;
+}
+
+
+
+// FUNCTION 1402125d0 LocalizationSourceControlSettingsCategoryName'' body=59 status=ok
+// SIG undefined LocalizationSourceControlSettingsCategoryName''(void)
+
+void `dynamic_initializer_for_'FLocalizationSourceControlSettings::
+     LocalizationSourceControlSettingsCategoryName__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4560,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4560,L"ProvingGroundChallengesCompletion",0x44);
+  atexit((_func_5014 *)&LAB_143e6e450);
+  return;
+}
+
+
+
+// FUNCTION 140212650 `dynamic_initializer_for_'PerfCounter_NumServerMoveCorrections'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PerfCounter_NumServerMoveCorrections''(void)
+
+void _dynamic_initializer_for__PerfCounter_NumServerMoveCorrections__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4580,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4580,L"RaidChallengesCompletion",0x32);
+  atexit((_func_5014 *)&LAB_143e6e470);
+  return;
+}
+
+
+
+// FUNCTION 1402126d0 `dynamic_initializer_for_'PipelineExtension'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PipelineExtension''(void)
+
+void _dynamic_initializer_for__PipelineExtension__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4048,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4048,L"<img src=\"%s\"></>",0x24);
+  atexit((_func_5014 *)&LAB_143e6e490);
+  return;
+}
+
+
+
+// FUNCTION 140212810 FUN_140212810 body=92 status=ok
+// SIG undefined FUN_140212810(void)
+
+void FUN_140212810(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x20;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144a92b88;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"AutoplayAction",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140212870 FUN_140212870 body=92 status=ok
+// SIG undefined FUN_140212870(void)
+
+void FUN_140212870(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x30;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144a92958;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"AutoplayCombatState",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 1402128d0 FUN_1402128d0 body=92 status=ok
+// SIG undefined FUN_1402128d0(void)
+
+void FUN_1402128d0(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x30;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144a92a70;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"AutoplayMissionState",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140212930 FUN_140212930 body=92 status=ok
+// SIG undefined FUN_140212930(void)
+
+void FUN_140212930(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x18;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144a92388;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"InstancedPlayerOwnerInfo",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140212990 FUN_140212990 body=92 status=ok
+// SIG undefined FUN_140212990(void)
+
+void FUN_140212990(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x10;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_143ff1be8;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"ManagedActorCountData",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 1402129f0 FUN_1402129f0 body=92 status=ok
+// SIG undefined FUN_1402129f0(void)
+
+void FUN_1402129f0(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x18;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144a90088;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"ManagedActorEntry",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140212a50 FUN_140212a50 body=92 status=ok
+// SIG undefined FUN_140212a50(void)
+
+void FUN_140212a50(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x18;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144a8ff70;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"ManagedActorOwnerEntry",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140212ab0 FUN_140212ab0 body=92 status=ok
+// SIG undefined FUN_140212ab0(void)
+
+void FUN_140212ab0(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 4;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 4;
+    *puVar1 = &PTR_FUN_144a3a098;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"MapCharacterPhysicsSettings",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140212b10 FUN_140212b10 body=92 status=ok
+// SIG undefined FUN_140212b10(void)
+
+void FUN_140212b10(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x70;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144a90dd8;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"MayhemModifierDifficultyLevel",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140212b70 FUN_140212b70 body=92 status=ok
+// SIG undefined FUN_140212b70(void)
+
+void FUN_140212b70(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x90;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144a90cc0;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"MayhemUILevelData",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140212bd0 FUN_140212bd0 body=92 status=ok
+// SIG undefined FUN_140212bd0(void)
+
+void FUN_140212bd0(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x68;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144a90ef0;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"WeightedOakModifierSet",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140212cb0 FUN_140212cb0 body=59 status=ok
+// SIG undefined FUN_140212cb0(void)
+
+void FUN_140212cb0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e42e0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e42e0,L"SessionId",0x14);
+  atexit((_func_5014 *)&LAB_143e6e4b0);
+  return;
+}
+
+
+
+// FUNCTION 140212cf0 FUN_140212cf0 body=59 status=ok
+// SIG undefined FUN_140212cf0(void)
+
+void FUN_140212cf0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4480,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4480,L"ShieldJsonData",0x1e);
+  atexit((_func_5014 *)&LAB_143e6e4d0);
+  return;
+}
+
+
+
+// FUNCTION 140212d30 `dynamic_initializer_for_'StatusStoreKey'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'StatusStoreKey''(void)
+
+void SessionManagerDefs::_dynamic_initializer_for__StatusStoreKey__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4400,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4400,L"ShieldSerialNumber",0x26);
+  atexit((_func_5014 *)&LAB_143e6e4f0);
+  return;
+}
+
+
+
+// FUNCTION 140212d90 `dynamic_initializer_for_'kAchievementName_SimultaneousInfected'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'kAchievementName_SimultaneousInfected''(void)
+
+void `anonymous_namespace'::_dynamic_initializer_for__kAchievementName_SimultaneousInfected__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e44d0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e44d0,L"SkinCustomizationHash",0x2c);
+  atexit((_func_5014 *)&LAB_143e6e510);
+  return;
+}
+
+
+
+// FUNCTION 140212dd0 FUN_140212dd0 body=59 status=ok
+// SIG undefined FUN_140212dd0(void)
+
+void FUN_140212dd0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4570,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4570,L"SlaughterChallengesCompletion",0x3c);
+  atexit((_func_5014 *)&LAB_143e6e530);
+  return;
+}
+
+
+
+// FUNCTION 140212ec0 FUN_140212ec0 body=59 status=ok
+// SIG undefined FUN_140212ec0(void)
+
+void FUN_140212ec0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e43a0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e43a0,L"TimePlayed",0x16);
+  atexit((_func_5014 *)&LAB_143e6e550);
+  return;
+}
+
+
+
+// FUNCTION 140212fa0 `dynamic_initializer_for_'VirtualBonePrefix'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'VirtualBonePrefix''(void)
+
+void VirtualBoneNameHelpers::_dynamic_initializer_for__VirtualBonePrefix__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e3ec8,0);
+  FGenericPlatformString::Memcpy(DAT_1463e3ec8,&DAT_144a8e068,8);
+  atexit((_func_5014 *)&LAB_143e6e570);
+  return;
+}
+
+
+
+// FUNCTION 140212fe0 `dynamic_initializer_for_'WasDebuggerStoreKey'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'WasDebuggerStoreKey''(void)
+
+void SessionManagerDefs::_dynamic_initializer_for__WasDebuggerStoreKey__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4430,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4430,L"Weapon1JsonData",0x20);
+  atexit((_func_5014 *)&LAB_143e6e590);
+  return;
+}
+
+
+
+// FUNCTION 140213020 FUN_140213020 body=59 status=ok
+// SIG undefined FUN_140213020(void)
+
+void FUN_140213020(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e43b0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e43b0,L"Weapon1SerialNumber",0x28);
+  atexit((_func_5014 *)&LAB_143e6e5b0);
+  return;
+}
+
+
+
+// FUNCTION 140213060 `dynamic_initializer_for_'WasDebuggerStoreKey'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'WasDebuggerStoreKey''(void)
+
+void SessionManagerDefs::_dynamic_initializer_for__WasDebuggerStoreKey__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4440,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4440,L"Weapon2JsonData",0x20);
+  atexit((_func_5014 *)&LAB_143e6e5d0);
+  return;
+}
+
+
+
+// FUNCTION 1402130a0 FUN_1402130a0 body=59 status=ok
+// SIG undefined FUN_1402130a0(void)
+
+void FUN_1402130a0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e43c0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e43c0,L"Weapon2SerialNumber",0x28);
+  atexit((_func_5014 *)&LAB_143e6e5f0);
+  return;
+}
+
+
+
+// FUNCTION 1402130e0 `dynamic_initializer_for_'WasDebuggerStoreKey'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'WasDebuggerStoreKey''(void)
+
+void SessionManagerDefs::_dynamic_initializer_for__WasDebuggerStoreKey__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4450,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4450,L"Weapon3JsonData",0x20);
+  atexit((_func_5014 *)&LAB_143e6e610);
+  return;
+}
+
+
+
+// FUNCTION 140213120 FUN_140213120 body=59 status=ok
+// SIG undefined FUN_140213120(void)
+
+void FUN_140213120(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e43d0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e43d0,L"Weapon3SerialNumber",0x28);
+  atexit((_func_5014 *)&LAB_143e6e630);
+  return;
+}
+
+
+
+// FUNCTION 140213160 `dynamic_initializer_for_'WasDebuggerStoreKey'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'WasDebuggerStoreKey''(void)
+
+void SessionManagerDefs::_dynamic_initializer_for__WasDebuggerStoreKey__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4460,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4460,L"Weapon4JsonData",0x20);
+  atexit((_func_5014 *)&LAB_143e6e650);
+  return;
+}
+
+
+
+// FUNCTION 1402131a0 FUN_1402131a0 body=59 status=ok
+// SIG undefined FUN_1402131a0(void)
+
+void FUN_1402131a0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e43e0,0);
+  FGenericPlatformString::Memcpy(DAT_1463e43e0,L"Weapon4SerialNumber",0x28);
+  atexit((_func_5014 *)&LAB_143e6e670);
+  return;
+}
+
+
+
+// FUNCTION 1402131e0 FUN_1402131e0 body=59 status=ok
+// SIG undefined FUN_1402131e0(void)
+
+void FUN_1402131e0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e4520,0);
+  FGenericPlatformString::Memcpy(DAT_1463e4520,L"WeaponChallengesCompletion",0x36);
+  atexit((_func_5014 *)&LAB_143e6e690);
+  return;
+}
+
+
+
+// FUNCTION 140213240 FUN_140213240 body=66 status=ok
+// SIG undefined FUN_140213240(void)
+
+void FUN_140213240(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"EOakManufacturerBalanceTableType",1);
+  UObjectCompiledInDeferEnum(FUN_14143a980,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213290 FUN_140213290 body=66 status=ok
+// SIG undefined FUN_140213290(void)
+
+void FUN_140213290(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"EOakMessageType",1);
+  UObjectCompiledInDeferEnum(FUN_14143a9c0,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402132e0 FUN_1402132e0 body=66 status=ok
+// SIG undefined FUN_1402132e0(void)
+
+void FUN_1402132e0(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"EOakMinimapIconComponentType",1);
+  UObjectCompiledInDeferEnum(FUN_14143aa00,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213330 FUN_140213330 body=66 status=ok
+// SIG undefined FUN_140213330(void)
+
+void FUN_140213330(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"EReapOrder",1);
+  UObjectCompiledInDeferEnum(FUN_14143aa40,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213380 FUN_140213380 body=66 status=ok
+// SIG undefined FUN_140213380(void)
+
+void FUN_140213380(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"AutoplayAction",1);
+  UObjectCompiledInDeferStruct(FUN_14143aee0,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402133d0 FUN_1402133d0 body=66 status=ok
+// SIG undefined FUN_1402133d0(void)
+
+void FUN_1402133d0(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"AutoplayCombatState",1);
+  UObjectCompiledInDeferStruct(FUN_14143af40,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213420 FUN_140213420 body=66 status=ok
+// SIG undefined FUN_140213420(void)
+
+void FUN_140213420(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"AutoplayMissionState",1);
+  UObjectCompiledInDeferStruct(FUN_14143afa0,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213470 FUN_140213470 body=66 status=ok
+// SIG undefined FUN_140213470(void)
+
+void FUN_140213470(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"InstancedPlayerOwnerInfo",1);
+  UObjectCompiledInDeferStruct
+            (FMovieSceneActorReferenceKey::StaticStruct,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402134c0 FUN_1402134c0 body=66 status=ok
+// SIG undefined FUN_1402134c0(void)
+
+void FUN_1402134c0(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"ManagedActorCountData",1);
+  UObjectCompiledInDeferStruct
+            (FMovieSceneEventPayloadVariable::StaticStruct,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213510 FUN_140213510 body=66 status=ok
+// SIG undefined FUN_140213510(void)
+
+void FUN_140213510(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"ManagedActorEntry",1);
+  UObjectCompiledInDeferStruct
+            (FMovieSceneActorReferenceKey::StaticStruct,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213560 FUN_140213560 body=66 status=ok
+// SIG undefined FUN_140213560(void)
+
+void FUN_140213560(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"ManagedActorOwnerEntry",1);
+  UObjectCompiledInDeferStruct
+            (FMovieSceneActorReferenceKey::StaticStruct,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402135b0 FUN_1402135b0 body=66 status=ok
+// SIG undefined FUN_1402135b0(void)
+
+void FUN_1402135b0(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"MapCharacterPhysicsSettings",1);
+  UObjectCompiledInDeferStruct
+            (FMovieSceneTransformMask::StaticStruct,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213600 FUN_140213600 body=66 status=ok
+// SIG undefined FUN_140213600(void)
+
+void FUN_140213600(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"MayhemModifierDifficultyLevel",1);
+  UObjectCompiledInDeferStruct(FUN_14143b1e0,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213650 FUN_140213650 body=66 status=ok
+// SIG undefined FUN_140213650(void)
+
+void FUN_140213650(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"MayhemUILevelData",1);
+  UObjectCompiledInDeferStruct(FUN_14143b240,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402136a0 FUN_1402136a0 body=66 status=ok
+// SIG undefined FUN_1402136a0(void)
+
+void FUN_1402136a0(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"WeightedOakModifierSet",1);
+  UObjectCompiledInDeferStruct(FUN_14143b2a0,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402136f0 FUN_1402136f0 body=58 status=ok
+// SIG undefined FUN_1402136f0(void)
+
+void FUN_1402136f0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b300,AOfflineGameMode::GetPrivateStaticClass,L"AOakMenuGameMode",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213730 FUN_140213730 body=58 status=ok
+// SIG undefined FUN_140213730(void)
+
+void FUN_140213730(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b330,UInputKeySelector::GetPrivateStaticClass,L"AOakMenuPlayerState",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213770 FUN_140213770 body=58 status=ok
+// SIG undefined FUN_140213770(void)
+
+void FUN_140213770(void)
+
+{
+  UObjectCompiledInDefer(FUN_141437db0,FUN_141437c50,L"AOakMissionItem",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402137b0 FUN_1402137b0 body=58 status=ok
+// SIG undefined FUN_1402137b0(void)
+
+void FUN_1402137b0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b360,FUN_141438060,L"AOakMissionItem_Vehicle",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402137f0 FUN_1402137f0 body=58 status=ok
+// SIG undefined FUN_1402137f0(void)
+
+void FUN_1402137f0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b390,AGExplodingRockProjectile::GetPrivateStaticClass,L"AOakMissionPickup",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213830 FUN_140213830 body=58 status=ok
+// SIG undefined FUN_140213830(void)
+
+void FUN_140213830(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_141436ed0,AVehiclePlayerController::GetPrivateStaticClass,L"AOakMissionRareSpawner"
+             ,L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213870 FUN_140213870 body=58 status=ok
+// SIG undefined FUN_140213870(void)
+
+void FUN_140213870(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b3c0,FUN_141437080,L"UDEPRECATED_OakMayhemModifiersDataAsset",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402138b0 FUN_1402138b0 body=58 status=ok
+// SIG undefined FUN_1402138b0(void)
+
+void FUN_1402138b0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b3f0,FUN_141437260,L"UDEPRECATED_OakMayhemUIDataAsset",L"/Script/OakGame",0,0,
+             0);
+  return;
+}
+
+
+
+// FUNCTION 1402138f0 FUN_1402138f0 body=58 status=ok
+// SIG undefined FUN_1402138f0(void)
+
+void FUN_1402138f0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_1414381a0,FUN_1414382a0,L"UMapDataFunctionLibrary",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213930 FUN_140213930 body=58 status=ok
+// SIG undefined FUN_140213930(void)
+
+void FUN_140213930(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b420,FUN_1414384c0,L"UOakAutoplayComponent",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213970 FUN_140213970 body=58 status=ok
+// SIG undefined FUN_140213970(void)
+
+void FUN_140213970(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b450,UTextureRenderTargetCube::GetPrivateStaticClass,L"UOakMainMenuMapData",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402139b0 FUN_1402139b0 body=58 status=ok
+// SIG undefined FUN_1402139b0(void)
+
+void FUN_1402139b0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b480,FUN_141438400,L"UOakManagedActorDefinition",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402139f0 FUN_1402139f0 body=58 status=ok
+// SIG undefined FUN_1402139f0(void)
+
+void FUN_1402139f0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_141436d00,FUN_141438950,L"UOakManagedActorManager",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213a30 FUN_140213a30 body=58 status=ok
+// SIG undefined FUN_140213a30(void)
+
+void FUN_140213a30(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b4b0,FUN_141436fd0,L"UOakManufacturerData",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213a70 FUN_140213a70 body=58 status=ok
+// SIG undefined FUN_140213a70(void)
+
+void FUN_140213a70(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b4e0,FUN_141437310,L"UOakManufacturerDataTableAttributeValueResolver",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213ab0 FUN_140213ab0 body=58 status=ok
+// SIG undefined FUN_140213ab0(void)
+
+void FUN_140213ab0(void)
+
+{
+  UObjectCompiledInDefer(FUN_141437620,FUN_141437aa0,L"UOakMapData",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213af0 FUN_140213af0 body=58 status=ok
+// SIG undefined FUN_140213af0(void)
+
+void FUN_140213af0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b510,FUN_141437e20,L"UOakMenuSwitcherTest",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213b30 FUN_140213b30 body=58 status=ok
+// SIG undefined FUN_140213b30(void)
+
+void FUN_140213b30(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b540,AGShrineUsable::GetPrivateStaticClass,L"UOakMenuSwitcherTestSubmenu",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213b70 FUN_140213b70 body=58 status=ok
+// SIG undefined FUN_140213b70(void)
+
+void FUN_140213b70(void)
+
+{
+  UObjectCompiledInDefer(FUN_14143b570,thunk_FUN_14143aad0,L"UOakMessage",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213bb0 FUN_140213bb0 body=58 status=ok
+// SIG undefined FUN_140213bb0(void)
+
+void FUN_140213bb0(void)
+
+{
+  UObjectCompiledInDefer(FUN_14143b5a0,FUN_141438740,L"UOakMinimapElement",L"/Script/OakGame",0,0,0)
+  ;
+  return;
+}
+
+
+
+// FUNCTION 140213bf0 FUN_140213bf0 body=58 status=ok
+// SIG undefined FUN_140213bf0(void)
+
+void FUN_140213bf0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_141437920,FUN_141437710,L"UOakMinimapIconComponent",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213c30 FUN_140213c30 body=58 status=ok
+// SIG undefined FUN_140213c30(void)
+
+void FUN_140213c30(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b5d0,FUN_1414377d0,L"UOakMinimapIconTracker",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213c70 FUN_140213c70 body=58 status=ok
+// SIG undefined FUN_140213c70(void)
+
+void FUN_140213c70(void)
+
+{
+  UObjectCompiledInDefer(FUN_141437d20,FUN_141437870,L"UOakMission",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213cb0 FUN_140213cb0 body=58 status=ok
+// SIG undefined FUN_140213cb0(void)
+
+void FUN_140213cb0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b600,UReplicationGraphNode_ConnectionDormanyNode::GetPrivateStaticClass,
+             L"UOakMissionActorComponent",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213cf0 FUN_140213cf0 body=58 status=ok
+// SIG undefined FUN_140213cf0(void)
+
+void FUN_140213cf0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b630,AGBlizzard::GetPrivateStaticClass,L"UOakMissionCircleOfSlaughter",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213d30 FUN_140213d30 body=58 status=ok
+// SIG undefined FUN_140213d30(void)
+
+void FUN_140213d30(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_1414371f0,FUN_141437130,L"UOakMissionDirectorComponent",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213d70 FUN_140213d70 body=58 status=ok
+// SIG undefined FUN_140213d70(void)
+
+void FUN_140213d70(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b660,AArchVisCharacter::StaticClass,L"UOakMissionIconComponent",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213db0 FUN_140213db0 body=58 status=ok
+// SIG undefined FUN_140213db0(void)
+
+void FUN_140213db0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b690,FUN_141437b90,L"UOakMissionInventoryBalanceStateComponent",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213df0 FUN_140213df0 body=58 status=ok
+// SIG undefined FUN_140213df0(void)
+
+void FUN_140213df0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b6c0,UARTrackedObject::GetPrivateStaticClass,L"UOakMissionItemPoolData",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213e30 FUN_140213e30 body=58 status=ok
+// SIG undefined FUN_140213e30(void)
+
+void FUN_140213e30(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b6f0,AGBlizzard::GetPrivateStaticClass,L"UOakMissionProvingGrounds",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213e70 FUN_140213e70 body=58 status=ok
+// SIG undefined FUN_140213e70(void)
+
+void FUN_140213e70(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b720,AGBlizzard::GetPrivateStaticClass,L"UOakMissionRaid",L"/Script/OakGame",0
+             ,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213eb0 FUN_140213eb0 body=58 status=ok
+// SIG undefined FUN_140213eb0(void)
+
+void FUN_140213eb0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143b750,USpinBox::GetPrivateStaticClass,L"UOakMissionRareSpawn",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140213f50 EOL_String'' body=115 status=ok
+// SIG undefined EOL_String''(void)
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void `dynamic_initializer_for_'FDlgConfigWriter::EOL_String__(void)
+
+{
+  undefined *puVar1;
+  int iVar2;
+  longlong lVar3;
+  
+  puVar1 = PTR_DAT_1463e2a40;
+  if ((PTR_DAT_1463e2a40 != (undefined *)0x0) && (*(short *)PTR_DAT_1463e2a40 != 0)) {
+    lVar3 = -1;
+    do {
+      lVar3 = lVar3 + 1;
+    } while (*(short *)(PTR_DAT_1463e2a40 + lVar3 * 2) != 0);
+    iVar2 = (int)lVar3 + 1;
+    _DAT_146894100 = iVar2;
+    if (0 < iVar2) {
+      TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1468940f8,0);
+    }
+    FGenericPlatformString::Memcpy(DAT_1468940f8,puVar1,(longlong)iVar2 * 2);
+  }
+  atexit((_func_5014 *)&LAB_143e6e6b0);
+  return;
+}
+
+
+
+// FUNCTION 140214bd0 `dynamic_initializer_for_'PipelineExtension'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PipelineExtension''(void)
+
+void _dynamic_initializer_for__PipelineExtension__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e7c78,0);
+  FGenericPlatformString::Memcpy(DAT_1463e7c78,L"<img src=\"%s\"></>",0x24);
+  atexit((_func_5014 *)&LAB_143e6e6d0);
+  return;
+}
+
+
+
+// FUNCTION 140214e70 FUN_140214e70 body=92 status=ok
+// SIG undefined FUN_140214e70(void)
+
+void FUN_140214e70(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x10;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_1447d9d28;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"LevelSyncCompletedMission",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140214ed0 FUN_140214ed0 body=92 status=ok
+// SIG undefined FUN_140214ed0(void)
+
+void FUN_140214ed0(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x10;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_143ff1be8;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"MissionSpawnerFailsafeData",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140214f30 FUN_140214f30 body=92 status=ok
+// SIG undefined FUN_140214f30(void)
+
+void FUN_140214f30(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x58;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144a9f950;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"MissionStarterGear",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140214f90 FUN_140214f90 body=92 status=ok
+// SIG undefined FUN_140214f90(void)
+
+void FUN_140214f90(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x10;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 4;
+    *puVar1 = &PTR_FUN_143ff1be8;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"MusicInterestASR",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140214ff0 FUN_140214ff0 body=92 status=ok
+// SIG undefined FUN_140214ff0(void)
+
+void FUN_140214ff0(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 8;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 4;
+    *puVar1 = &PTR_FUN_144aa16a0;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"MusicLayer",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140215050 FUN_140215050 body=92 status=ok
+// SIG undefined FUN_140215050(void)
+
+void FUN_140215050(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x20;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_14478d280;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"MusicLayerInfo",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 1402150b0 FUN_1402150b0 body=92 status=ok
+// SIG undefined FUN_1402150b0(void)
+
+void FUN_1402150b0(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x60;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144aa1588;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"MusicPart",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140215110 FUN_140215110 body=92 status=ok
+// SIG undefined FUN_140215110(void)
+
+void FUN_140215110(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x58;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144aa1470;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"MusicSection",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140215170 FUN_140215170 body=92 status=ok
+// SIG undefined FUN_140215170(void)
+
+void FUN_140215170(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x30;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144a9fab8;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"OakModifierData",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 1402151d0 FUN_1402151d0 body=92 status=ok
+// SIG undefined FUN_1402151d0(void)
+
+void FUN_1402151d0(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x50;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144aa0bf8;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"OakModifierSet",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140215230 FUN_140215230 body=92 status=ok
+// SIG undefined FUN_140215230(void)
+
+void FUN_140215230(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x60;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144aa0ae0;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"OakModifierSetWithMutexTags",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140215290 FUN_140215290 body=92 status=ok
+// SIG undefined FUN_140215290(void)
+
+void FUN_140215290(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x20;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144aa0d10;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"OakModifierStatusEffectData",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 1402152f0 FUN_1402152f0 body=92 status=ok
+// SIG undefined FUN_1402152f0(void)
+
+void FUN_1402152f0(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x20;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144aa0e28;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"OakModifierTargetResolverData",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140215540 `dynamic_initializer_for_'VirtualBonePrefix'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'VirtualBonePrefix''(void)
+
+void VirtualBoneNameHelpers::_dynamic_initializer_for__VirtualBonePrefix__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463e8f78,0);
+  FGenericPlatformString::Memcpy(DAT_1463e8f78,&DAT_144a997d8,8);
+  atexit((_func_5014 *)&LAB_143e6e6f0);
+  return;
+}
+
+
+
+// FUNCTION 1402155a0 FUN_1402155a0 body=66 status=ok
+// SIG undefined FUN_1402155a0(void)
+
+void FUN_1402155a0(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"EOakMissionType",1);
+  UObjectCompiledInDeferEnum(FUN_14143fba0,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402155f0 FUN_1402155f0 body=66 status=ok
+// SIG undefined FUN_1402155f0(void)
+
+void FUN_1402155f0(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"EOakMusicLayer",1);
+  UObjectCompiledInDeferEnum(FUN_14143fbe0,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215640 FUN_140215640 body=66 status=ok
+// SIG undefined FUN_140215640(void)
+
+void FUN_140215640(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"EOakMusicPart",1);
+  UObjectCompiledInDeferEnum(FUN_14143fc20,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215690 FUN_140215690 body=66 status=ok
+// SIG undefined FUN_140215690(void)
+
+void FUN_140215690(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"EOakMusicSection",1);
+  UObjectCompiledInDeferEnum(FUN_14143fc60,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402156e0 FUN_1402156e0 body=66 status=ok
+// SIG undefined FUN_1402156e0(void)
+
+void FUN_1402156e0(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"LevelSyncCompletedMission",1);
+  UObjectCompiledInDeferStruct
+            (FMovieSceneEventPayloadVariable::StaticStruct,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215730 FUN_140215730 body=66 status=ok
+// SIG undefined FUN_140215730(void)
+
+void FUN_140215730(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"MissionSpawnerFailsafeData",1);
+  UObjectCompiledInDeferStruct
+            (FMovieSceneEventPayloadVariable::StaticStruct,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215780 FUN_140215780 body=66 status=ok
+// SIG undefined FUN_140215780(void)
+
+void FUN_140215780(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"MissionStarterGear",1);
+  UObjectCompiledInDeferStruct(FUN_141440330,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402157d0 FUN_1402157d0 body=66 status=ok
+// SIG undefined FUN_1402157d0(void)
+
+void FUN_1402157d0(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"MusicInterestASR",1);
+  UObjectCompiledInDeferStruct
+            (FMovieSceneEventPayloadVariable::StaticStruct,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215820 FUN_140215820 body=66 status=ok
+// SIG undefined FUN_140215820(void)
+
+void FUN_140215820(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"MusicLayer",1);
+  UObjectCompiledInDeferStruct(FMovieSceneEvent::StaticStruct,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215870 FUN_140215870 body=66 status=ok
+// SIG undefined FUN_140215870(void)
+
+void FUN_140215870(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"MusicLayerInfo",1);
+  UObjectCompiledInDeferStruct(FUN_141440450,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402158c0 FUN_1402158c0 body=66 status=ok
+// SIG undefined FUN_1402158c0(void)
+
+void FUN_1402158c0(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"MusicPart",1);
+  UObjectCompiledInDeferStruct
+            (FMovieSceneEventRepeaterTemplate::StaticStruct,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215910 FUN_140215910 body=66 status=ok
+// SIG undefined FUN_140215910(void)
+
+void FUN_140215910(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"MusicSection",1);
+  UObjectCompiledInDeferStruct(FUN_141440510,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215960 FUN_140215960 body=66 status=ok
+// SIG undefined FUN_140215960(void)
+
+void FUN_140215960(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"OakModifierData",1);
+  UObjectCompiledInDeferStruct(FUN_141440570,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402159b0 FUN_1402159b0 body=66 status=ok
+// SIG undefined FUN_1402159b0(void)
+
+void FUN_1402159b0(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"OakModifierSet",1);
+  UObjectCompiledInDeferStruct(FUN_1414405d0,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215a00 FUN_140215a00 body=66 status=ok
+// SIG undefined FUN_140215a00(void)
+
+void FUN_140215a00(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"OakModifierSetWithMutexTags",1);
+  UObjectCompiledInDeferStruct
+            (FMovieSceneEventRepeaterTemplate::StaticStruct,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215a50 FUN_140215a50 body=66 status=ok
+// SIG undefined FUN_140215a50(void)
+
+void FUN_140215a50(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"OakModifierStatusEffectData",1);
+  UObjectCompiledInDeferStruct(FUN_141440690,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215aa0 FUN_140215aa0 body=66 status=ok
+// SIG undefined FUN_140215aa0(void)
+
+void FUN_140215aa0(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"OakModifierTargetResolverData",1);
+  UObjectCompiledInDeferStruct(FUN_1414406f0,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215af0 FUN_140215af0 body=58 status=ok
+// SIG undefined FUN_140215af0(void)
+
+void FUN_140215af0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143d5b0,FUN_14143d4c0,L"AOakMissionRareSpawner_WantedPoster",L"/Script/OakGame",0
+             ,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215b30 FUN_140215b30 body=58 status=ok
+// SIG undefined FUN_140215b30(void)
+
+void FUN_140215b30(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143d5e0,USoCharacterMovementComponent::GetPrivateStaticClass,
+             L"AOakMissionSpawner",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215b70 FUN_140215b70 body=58 status=ok
+// SIG undefined FUN_140215b70(void)
+
+void FUN_140215b70(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143c8f0,UWebSocketNetDriver::StaticClass,L"AOakMissionTracker",L"/Script/OakGame"
+             ,0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215bb0 FUN_140215bb0 body=58 status=ok
+// SIG undefined FUN_140215bb0(void)
+
+void FUN_140215bb0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143d110,FUN_14143cfe0,L"AOakMissionVehicleSpawner",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215bf0 FUN_140215bf0 body=58 status=ok
+// SIG undefined FUN_140215bf0(void)
+
+void FUN_140215bf0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143d8b0,UGEditableText::GetPrivateStaticClass,L"AOakMissionWaypoint",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215c30 FUN_140215c30 body=58 status=ok
+// SIG undefined FUN_140215c30(void)
+
+void FUN_140215c30(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143dc40,UGEditableText::GetPrivateStaticClass,L"AOakMissionWaypointBox",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215c70 FUN_140215c70 body=58 status=ok
+// SIG undefined FUN_140215c70(void)
+
+void FUN_140215c70(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_1414407d0,FUN_14143c580,L"AOakModifierManagerActor",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215cb0 FUN_140215cb0 body=58 status=ok
+// SIG undefined FUN_140215cb0(void)
+
+void FUN_140215cb0(void)
+
+{
+  UObjectCompiledInDefer(FUN_14143cb40,FUN_14143c640,L"AOakMusicProvider",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215cf0 FUN_140215cf0 body=58 status=ok
+// SIG undefined FUN_140215cf0(void)
+
+void FUN_140215cf0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_141440800,FUN_14143d920,L"UOakMissionRewardData",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215d30 FUN_140215d30 body=58 status=ok
+// SIG undefined FUN_140215d30(void)
+
+void FUN_140215d30(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_141440830,UBlueprintGeneratedClass::GetPrivateStaticClass,
+             L"UOakMissionSpawnerFailsafeComponent",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215d70 FUN_140215d70 body=58 status=ok
+// SIG undefined FUN_140215d70(void)
+
+void FUN_140215d70(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_141440860,UReplicationGraphNode_ConnectionDormanyNode::GetPrivateStaticClass,
+             L"UOakMissionWeaponComponent",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215db0 FUN_140215db0 body=58 status=ok
+// SIG undefined FUN_140215db0(void)
+
+void FUN_140215db0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143d250,UWidget::GetPrivateStaticClass,L"UOakModifierAbility",L"/Script/OakGame",
+             0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215df0 FUN_140215df0 body=58 status=ok
+// SIG undefined FUN_140215df0(void)
+
+void FUN_140215df0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_141440890,FUN_14143d2a0,L"UOakModifierAbility_Matchmaking",L"/Script/OakGame",0,0,0
+            );
+  return;
+}
+
+
+
+// FUNCTION 140215e30 FUN_140215e30 body=58 status=ok
+// SIG undefined FUN_140215e30(void)
+
+void FUN_140215e30(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_1414408c0,FUN_14143d400,L"UOakModifierAbility_Mayhem",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215e70 FUN_140215e70 body=58 status=ok
+// SIG undefined FUN_140215e70(void)
+
+void FUN_140215e70(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_1414408f0,USequenceRenderSettings::GetPrivateStaticClass,L"UOakModifierLists",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215eb0 FUN_140215eb0 body=58 status=ok
+// SIG undefined FUN_140215eb0(void)
+
+void FUN_140215eb0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143d7c0,FUN_14143d350,L"UOakModifierManager",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215ef0 FUN_140215ef0 body=58 status=ok
+// SIG undefined FUN_140215ef0(void)
+
+void FUN_140215ef0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_141440920,FUN_14143c6f0,L"UOakModifierManagerAttributeContextResolver",
+             L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215f30 FUN_140215f30 body=58 status=ok
+// SIG undefined FUN_140215f30(void)
+
+void FUN_140215f30(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_141440950,FUN_14143d800,L"UOakModifierManager_Matchmaking",L"/Script/OakGame",0,0,0
+            );
+  return;
+}
+
+
+
+// FUNCTION 140215f70 FUN_140215f70 body=58 status=ok
+// SIG undefined FUN_140215f70(void)
+
+void FUN_140215f70(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_141440980,FUN_14143c410,L"UOakModifierManager_Mayhem",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215fb0 FUN_140215fb0 body=58 status=ok
+// SIG undefined FUN_140215fb0(void)
+
+void FUN_140215fb0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_1414409b0,FUN_14143d9e0,L"UOakModifierSetListDataAsset",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140215ff0 FUN_140215ff0 body=58 status=ok
+// SIG undefined FUN_140215ff0(void)
+
+void FUN_140215ff0(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_14143ca80,FUN_14143c1f0,L"UOakMusicAmbientPerformer",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140216030 FUN_140216030 body=58 status=ok
+// SIG undefined FUN_140216030(void)
+
+void FUN_140216030(void)
+
+{
+  UObjectCompiledInDefer(FUN_1414409e0,FUN_14143c2a0,L"UOakMusicData",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140216070 FUN_140216070 body=58 status=ok
+// SIG undefined FUN_140216070(void)
+
+void FUN_140216070(void)
+
+{
+  UObjectCompiledInDefer
+            (FUN_141440a10,FUN_14143c7a0,L"UOakMusicSystemConfiguration",L"/Script/OakGame",0,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140216110 FUN_140216110 body=59 status=ok
+// SIG undefined FUN_140216110(void)
+
+void FUN_140216110(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463eddc8,0);
+  FGenericPlatformString::Memcpy(DAT_1463eddc8,L"AbilityData",0x18);
+  atexit((_func_5014 *)&LAB_143e6e710);
+  return;
+}
+
+
+
+// FUNCTION 1402161f0 FUN_1402161f0 body=59 status=ok
+// SIG undefined FUN_1402161f0(void)
+
+void FUN_1402161f0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edd78,0);
+  FGenericPlatformString::Memcpy(DAT_1463edd78,L"ArtifactJsonData",0x22);
+  atexit((_func_5014 *)&LAB_143e6e730);
+  return;
+}
+
+
+
+// FUNCTION 140216230 FUN_140216230 body=59 status=ok
+// SIG undefined FUN_140216230(void)
+
+void FUN_140216230(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edcf8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edcf8,L"ArtifactSerialNumber",0x2a);
+  atexit((_func_5014 *)&LAB_143e6e750);
+  return;
+}
+
+
+
+// FUNCTION 140216410 `dynamic_initializer_for_'kAchievementName_SimultaneousInfected'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'kAchievementName_SimultaneousInfected''(void)
+
+void `anonymous_namespace'::_dynamic_initializer_for__kAchievementName_SimultaneousInfected__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edd98,0);
+  FGenericPlatformString::Memcpy(DAT_1463edd98,L"BodyCustomizationHash",0x2c);
+  atexit((_func_5014 *)&LAB_143e6e770);
+  return;
+}
+
+
+
+// FUNCTION 140216450 FUN_140216450 body=59 status=ok
+// SIG undefined FUN_140216450(void)
+
+void FUN_140216450(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edc28,0);
+  FGenericPlatformString::Memcpy(DAT_1463edc28,L"CanJoin",0x10);
+  atexit((_func_5014 *)&LAB_143e6e790);
+  return;
+}
+
+
+
+// FUNCTION 1402164d0 `dynamic_initializer_for_'PipelineExtension'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PipelineExtension''(void)
+
+void _dynamic_initializer_for__PipelineExtension__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edd68,0);
+  FGenericPlatformString::Memcpy(DAT_1463edd68,L"ClassItemJsonData",0x24);
+  atexit((_func_5014 *)&LAB_143e6e7b0);
+  return;
+}
+
+
+
+// FUNCTION 140216510 `dynamic_initializer_for_'kAchievementName_SimultaneousInfected'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'kAchievementName_SimultaneousInfected''(void)
+
+void `anonymous_namespace'::_dynamic_initializer_for__kAchievementName_SimultaneousInfected__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edce8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edce8,L"ClassItemSerialNumber",0x2c);
+  atexit((_func_5014 *)&LAB_143e6e7d0);
+  return;
+}
+
+
+
+// FUNCTION 140216590 `dynamic_initializer_for_'PerfCounter_NumServerMoveCorrections'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PerfCounter_NumServerMoveCorrections''(void)
+
+void _dynamic_initializer_for__PerfCounter_NumServerMoveCorrections__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463ede18,0);
+  FGenericPlatformString::Memcpy(DAT_1463ede18,L"CrewChallengesCompletion",0x32);
+  atexit((_func_5014 *)&LAB_143e6e7f0);
+  return;
+}
+
+
+
+// FUNCTION 140216610 FUN_140216610 body=59 status=ok
+// SIG undefined FUN_140216610(void)
+
+void FUN_140216610(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463ede78,0);
+  FGenericPlatformString::Memcpy(DAT_1463ede78,L"DateTime",0x12);
+  atexit((_func_5014 *)&LAB_143e6e810);
+  return;
+}
+
+
+
+// FUNCTION 140216730 `dynamic_initializer_for_'AutogeneratedDefaultValueName'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'AutogeneratedDefaultValueName''(void)
+
+void PinHelpers::_dynamic_initializer_for__AutogeneratedDefaultValueName__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463eec40,0);
+  FGenericPlatformString::Memcpy(DAT_1463eec40,L"DuplicateReservationFound",0x34);
+  atexit((_func_5014 *)&LAB_143e6e830);
+  return;
+}
+
+
+
+// FUNCTION 140216770 `dynamic_initializer_for_'kResultStringCannotLoadPreset'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'kResultStringCannotLoadPreset''(void)
+
+void _dynamic_initializer_for__kResultStringCannotLoadPreset__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463eddb8,0);
+  FGenericPlatformString::Memcpy(DAT_1463eddb8,L"EmoteCustomizationHash",0x2e);
+  atexit((_func_5014 *)&LAB_143e6e850);
+  return;
+}
+
+
+
+// FUNCTION 1402167b0 `dynamic_initializer_for_'AutogeneratedDefaultValueName'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'AutogeneratedDefaultValueName''(void)
+
+void PinHelpers::_dynamic_initializer_for__AutogeneratedDefaultValueName__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463ede08,0);
+  FGenericPlatformString::Memcpy(DAT_1463ede08,L"EnemyChallengesCompletion",0x34);
+  atexit((_func_5014 *)&LAB_143e6e870);
+  return;
+}
+
+
+
+// FUNCTION 140216830 `dynamic_initializer_for_'kResultStringAssetDefAlrealdyLoaded'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'kResultStringAssetDefAlrealdyLoaded''(void)
+
+void _dynamic_initializer_for__kResultStringAssetDefAlrealdyLoaded__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463ede28,0);
+  FGenericPlatformString::Memcpy(DAT_1463ede28,L"ExplorationChallengesCompletion",0x40);
+  atexit((_func_5014 *)&LAB_143e6e890);
+  return;
+}
+
+
+
+// FUNCTION 1402168f0 FUN_1402168f0 body=59 status=ok
+// SIG undefined FUN_1402168f0(void)
+
+void FUN_1402168f0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edc58,0);
+  FGenericPlatformString::Memcpy(DAT_1463edc58,L"FriendActivityStatus",0x2a);
+  atexit((_func_5014 *)&LAB_143e6e8b0);
+  return;
+}
+
+
+
+// FUNCTION 140216930 FUN_140216930 body=59 status=ok
+// SIG undefined FUN_140216930(void)
+
+void FUN_140216930(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edec8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edec8,L"ChallengeInfo",0x1c);
+  atexit((_func_5014 *)&LAB_143e6e8d0);
+  return;
+}
+
+
+
+// FUNCTION 140216970 `dynamic_initializer_for_'kAchievementName_SimultaneousInfected'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'kAchievementName_SimultaneousInfected''(void)
+
+void `anonymous_namespace'::_dynamic_initializer_for__kAchievementName_SimultaneousInfected__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edeb8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edeb8,L"FriendCrewQuarterInfo",0x2c);
+  atexit((_func_5014 *)&LAB_143e6e8f0);
+  return;
+}
+
+
+
+// FUNCTION 1402169b0 `dynamic_initializer_for_'PipelineExtension'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PipelineExtension''(void)
+
+void _dynamic_initializer_for__PipelineExtension__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463ede98,0);
+  FGenericPlatformString::Memcpy(DAT_1463ede98,L"FriendLoadOutInfo",0x24);
+  atexit((_func_5014 *)&LAB_143e6e910);
+  return;
+}
+
+
+
+// FUNCTION 1402169f0 `dynamic_initializer_for_'PerfCounter_NumServerMoveCorrections'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PerfCounter_NumServerMoveCorrections''(void)
+
+void _dynamic_initializer_for__PerfCounter_NumServerMoveCorrections__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463ede88,0);
+  FGenericPlatformString::Memcpy(DAT_1463ede88,L"FriendStatusPresenceInfo",0x32);
+  atexit((_func_5014 *)&LAB_143e6e930);
+  return;
+}
+
+
+
+// FUNCTION 140216a30 FUN_140216a30 body=59 status=ok
+// SIG undefined FUN_140216a30(void)
+
+void FUN_140216a30(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edea8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edea8,L"FriendSkillTreeInfo",0x28);
+  atexit((_func_5014 *)&LAB_143e6e950);
+  return;
+}
+
+
+
+// FUNCTION 140216a70 `dynamic_initializer_for_'PipelineExtension'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PipelineExtension''(void)
+
+void _dynamic_initializer_for__PipelineExtension__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463eddd8,0);
+  FGenericPlatformString::Memcpy(DAT_1463eddd8,L"FriendStatusThing",0x24);
+  atexit((_func_5014 *)&LAB_143e6e970);
+  return;
+}
+
+
+
+// FUNCTION 140216ab0 FUN_140216ab0 body=59 status=ok
+// SIG undefined FUN_140216ab0(void)
+
+void FUN_140216ab0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edde8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edde8,L"GameCompletion",0x1e);
+  atexit((_func_5014 *)&LAB_143e6e990);
+  return;
+}
+
+
+
+// FUNCTION 140216af0 FUN_140216af0 body=59 status=ok
+// SIG undefined FUN_140216af0(void)
+
+void FUN_140216af0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463eec10,0);
+  FGenericPlatformString::Memcpy(DAT_1463eec10,L"GenericFailure",0x1e);
+  atexit((_func_5014 *)&LAB_143e6e9b0);
+  return;
+}
+
+
+
+// FUNCTION 140216b30 `dynamic_initializer_for_'WasDebuggerStoreKey'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'WasDebuggerStoreKey''(void)
+
+void SessionManagerDefs::_dynamic_initializer_for__WasDebuggerStoreKey__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edd48,0);
+  FGenericPlatformString::Memcpy(DAT_1463edd48,L"GrenadeJsonData",0x20);
+  atexit((_func_5014 *)&LAB_143e6e9d0);
+  return;
+}
+
+
+
+// FUNCTION 140216b70 FUN_140216b70 body=59 status=ok
+// SIG undefined FUN_140216b70(void)
+
+void FUN_140216b70(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edcc8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edcc8,L"GrenadeSerialNumber",0x28);
+  atexit((_func_5014 *)&LAB_143e6e9f0);
+  return;
+}
+
+
+
+// FUNCTION 140216bb0 FUN_140216bb0 body=59 status=ok
+// SIG undefined FUN_140216bb0(void)
+
+void FUN_140216bb0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edc68,0);
+  FGenericPlatformString::Memcpy(DAT_1463edc68,L"GuardianRank",0x1a);
+  atexit((_func_5014 *)&LAB_143e6ea10);
+  return;
+}
+
+
+
+// FUNCTION 140216bf0 FUN_140216bf0 body=59 status=ok
+// SIG undefined FUN_140216bf0(void)
+
+void FUN_140216bf0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edc48,0);
+  FGenericPlatformString::Memcpy(DAT_1463edc48,L"HasSelectedCharacter",0x2a);
+  atexit((_func_5014 *)&LAB_143e6ea30);
+  return;
+}
+
+
+
+// FUNCTION 140216c30 `dynamic_initializer_for_'kAchievementName_SimultaneousInfected'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'kAchievementName_SimultaneousInfected''(void)
+
+void `anonymous_namespace'::_dynamic_initializer_for__kAchievementName_SimultaneousInfected__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edd88,0);
+  FGenericPlatformString::Memcpy(DAT_1463edd88,L"HeadCustomizationHash",0x2c);
+  atexit((_func_5014 *)&LAB_143e6ea50);
+  return;
+}
+
+
+
+// FUNCTION 140216d00 FUN_140216d00 body=59 status=ok
+// SIG undefined FUN_140216d00(void)
+
+void FUN_140216d00(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463eec30,0);
+  FGenericPlatformString::Memcpy(DAT_1463eec30,L"InvalidClientBeaconType",0x30);
+  atexit((_func_5014 *)&LAB_143e6ea70);
+  return;
+}
+
+
+
+// FUNCTION 140216e80 FUN_140216e80 body=59 status=ok
+// SIG undefined FUN_140216e80(void)
+
+void FUN_140216e80(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edb98,0);
+  FGenericPlatformString::Memcpy(DAT_1463edb98,L"Level",0xc);
+  atexit((_func_5014 *)&LAB_143e6ea90);
+  return;
+}
+
+
+
+// FUNCTION 140216ec0 FUN_140216ec0 body=59 status=ok
+// SIG undefined FUN_140216ec0(void)
+
+void FUN_140216ec0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edbf8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edbf8,L"LocationX",0x14);
+  atexit((_func_5014 *)&LAB_143e6eab0);
+  return;
+}
+
+
+
+// FUNCTION 140216f00 FUN_140216f00 body=59 status=ok
+// SIG undefined FUN_140216f00(void)
+
+void FUN_140216f00(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edc08,0);
+  FGenericPlatformString::Memcpy(DAT_1463edc08,L"LocationY",0x14);
+  atexit((_func_5014 *)&LAB_143e6ead0);
+  return;
+}
+
+
+
+// FUNCTION 140216f40 FUN_140216f40 body=59 status=ok
+// SIG undefined FUN_140216f40(void)
+
+void FUN_140216f40(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edc18,0);
+  FGenericPlatformString::Memcpy(DAT_1463edc18,L"LocationZ",0x14);
+  atexit((_func_5014 *)&LAB_143e6eaf0);
+  return;
+}
+
+
+
+// FUNCTION 140216f80 FUN_140216f80 body=59 status=ok
+// SIG undefined FUN_140216f80(void)
+
+void FUN_140216f80(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edc38,0);
+  FGenericPlatformString::Memcpy(DAT_1463edc38,L"LookingForHelp",0x1e);
+  atexit((_func_5014 *)&LAB_143e6eb10);
+  return;
+}
+
+
+
+// FUNCTION 140216fc0 FUN_140216fc0 body=59 status=ok
+// SIG undefined FUN_140216fc0(void)
+
+void FUN_140216fc0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edba8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edba8,L"MapName",0x10);
+  atexit((_func_5014 *)&LAB_143e6eb30);
+  return;
+}
+
+
+
+// FUNCTION 140217040 FUN_140217040 body=59 status=ok
+// SIG undefined FUN_140217040(void)
+
+void FUN_140217040(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463eec50,0);
+  FGenericPlatformString::Memcpy(DAT_1463eec50,L"MismatchedBeaconNetVersions",0x38);
+  atexit((_func_5014 *)&LAB_143e6eb50);
+  return;
+}
+
+
+
+// FUNCTION 140217080 FUN_140217080 body=59 status=ok
+// SIG undefined FUN_140217080(void)
+
+void FUN_140217080(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463eec70,0);
+  FGenericPlatformString::Memcpy(DAT_1463eec70,L"MissingDLC",0x16);
+  atexit((_func_5014 *)&LAB_143e6eb70);
+  return;
+}
+
+
+
+// FUNCTION 1402170c0 FUN_1402170c0 body=59 status=ok
+// SIG undefined FUN_1402170c0(void)
+
+void FUN_1402170c0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edbe8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edbe8,L"MissionHash",0x18);
+  atexit((_func_5014 *)&LAB_143e6eb90);
+  return;
+}
+
+
+
+// FUNCTION 1402173a0 FUN_1402173a0 body=59 status=ok
+// SIG undefined FUN_1402173a0(void)
+
+void FUN_1402173a0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463eec00,0);
+  FGenericPlatformString::Memcpy(DAT_1463eec00,L"NetworkFailure",0x1e);
+  atexit((_func_5014 *)&LAB_143e6ebb0);
+  return;
+}
+
+
+
+// FUNCTION 140217420 `dynamic_initializer_for_'PerfCounter_NumServerMoveCorrections'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PerfCounter_NumServerMoveCorrections''(void)
+
+void _dynamic_initializer_for__PerfCounter_NumServerMoveCorrections__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463eec20,0);
+  FGenericPlatformString::Memcpy(DAT_1463eec20,L"NotAcceptingReservations",0x32);
+  atexit((_func_5014 *)&LAB_143e6ebd0);
+  return;
+}
+
+
+
+// FUNCTION 140217480 FUN_140217480 body=59 status=ok
+// SIG undefined FUN_140217480(void)
+
+void FUN_140217480(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edbc8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edbc8,L"PartyPlayerCount",0x22);
+  atexit((_func_5014 *)&LAB_143e6ebf0);
+  return;
+}
+
+
+
+// FUNCTION 1402175a0 `dynamic_initializer_for_'AutogeneratedDefaultValueName'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'AutogeneratedDefaultValueName''(void)
+
+void PinHelpers::_dynamic_initializer_for__AutogeneratedDefaultValueName__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edbd8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edbd8,L"PlayerClassIdentifierHash",0x34);
+  atexit((_func_5014 *)&LAB_143e6ec10);
+  return;
+}
+
+
+
+// FUNCTION 1402175e0 FUN_1402175e0 body=59 status=ok
+// SIG undefined FUN_1402175e0(void)
+
+void FUN_1402175e0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463ede68,0);
+  FGenericPlatformString::Memcpy(DAT_1463ede68,L"PlayerId",0x12);
+  atexit((_func_5014 *)&LAB_143e6ec30);
+  return;
+}
+
+
+
+// FUNCTION 1402176e0 LocalizationSourceControlSettingsCategoryName'' body=59 status=ok
+// SIG undefined LocalizationSourceControlSettingsCategoryName''(void)
+
+void `dynamic_initializer_for_'FLocalizationSourceControlSettings::
+     LocalizationSourceControlSettingsCategoryName__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463ede38,0);
+  FGenericPlatformString::Memcpy(DAT_1463ede38,L"ProvingGroundChallengesCompletion",0x44);
+  atexit((_func_5014 *)&LAB_143e6ec50);
+  return;
+}
+
+
+
+// FUNCTION 140217760 `dynamic_initializer_for_'PerfCounter_NumServerMoveCorrections'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PerfCounter_NumServerMoveCorrections''(void)
+
+void _dynamic_initializer_for__PerfCounter_NumServerMoveCorrections__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463ede58,0);
+  FGenericPlatformString::Memcpy(DAT_1463ede58,L"RaidChallengesCompletion",0x32);
+  atexit((_func_5014 *)&LAB_143e6ec70);
+  return;
+}
+
+
+
+// FUNCTION 1402177e0 `dynamic_initializer_for_'PipelineExtension'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PipelineExtension''(void)
+
+void _dynamic_initializer_for__PipelineExtension__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edb88,0);
+  FGenericPlatformString::Memcpy(DAT_1463edb88,L"<img src=\"%s\"></>",0x24);
+  atexit((_func_5014 *)&LAB_143e6ec90);
+  return;
+}
+
+
+
+// FUNCTION 140217920 FUN_140217920 body=92 status=ok
+// SIG undefined FUN_140217920(void)
+
+void FUN_140217920(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 2;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 1;
+    *puVar1 = &PTR_FUN_144aae6f8;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"DrivingOverride",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140217980 FUN_140217980 body=92 status=ok
+// SIG undefined FUN_140217980(void)
+
+void FUN_140217980(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x58;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144aaf420;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"OakNPCMailDataEntry",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 1402179e0 FUN_1402179e0 body=92 status=ok
+// SIG undefined FUN_1402179e0(void)
+
+void FUN_1402179e0(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x18;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144aaeaf0;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"OakNavReverseState",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140217a40 FUN_140217a40 body=92 status=ok
+// SIG undefined FUN_140217a40(void)
+
+void FUN_140217a40(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x30;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144aaf728;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"OakOnlineLobbyInfo",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140217aa0 FUN_140217aa0 body=92 status=ok
+// SIG undefined FUN_140217aa0(void)
+
+void FUN_140217aa0(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x80;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144aaf610;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"OakOnlineLobbyPlayerInfo",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140217b00 FUN_140217b00 body=92 status=ok
+// SIG undefined FUN_140217b00(void)
+
+void FUN_140217b00(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x20;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_14478d280;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"OakPassiveAbilityHUDIconData",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140217b60 FUN_140217b60 body=92 status=ok
+// SIG undefined FUN_140217b60(void)
+
+void FUN_140217b60(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x38;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144aafed8;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"OnlineNetworkOptionData",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140217bc0 FUN_140217bc0 body=92 status=ok
+// SIG undefined FUN_140217bc0(void)
+
+void FUN_140217bc0(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x40;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144aae928;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"RubberbandSpeedData",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140217c20 FUN_140217c20 body=92 status=ok
+// SIG undefined FUN_140217c20(void)
+
+void FUN_140217c20(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x24;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 4;
+    *puVar1 = &PTR_FUN_144aae5e0;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"ScriptedVehicleMove",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140217c80 FUN_140217c80 body=92 status=ok
+// SIG undefined FUN_140217c80(void)
+
+void FUN_140217c80(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x60;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144aae810;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"SpeedOverride",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140217ce0 FUN_140217ce0 body=92 status=ok
+// SIG undefined FUN_140217ce0(void)
+
+void FUN_140217ce0(void)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)operator_new(0x10);
+  if (puVar1 == (undefined8 *)0x0) {
+    puVar1 = (undefined8 *)0x0;
+  }
+  else {
+    *(undefined4 *)(puVar1 + 1) = 0x48;
+    *(undefined4 *)((longlong)puVar1 + 0xc) = 8;
+    *puVar1 = &PTR_FUN_144ab09c0;
+  }
+  puVar2 = (undefined8 *)FName::FName(local_res8,L"TriggeredPassiveAbilityEffect",1);
+  UScriptStruct::DeferCppStructOps(*puVar2,puVar1);
+  return;
+}
+
+
+
+// FUNCTION 140217dc0 FUN_140217dc0 body=59 status=ok
+// SIG undefined FUN_140217dc0(void)
+
+void FUN_140217dc0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edbb8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edbb8,L"SessionId",0x14);
+  atexit((_func_5014 *)&LAB_143e6ecb0);
+  return;
+}
+
+
+
+// FUNCTION 140217e00 FUN_140217e00 body=59 status=ok
+// SIG undefined FUN_140217e00(void)
+
+void FUN_140217e00(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edd58,0);
+  FGenericPlatformString::Memcpy(DAT_1463edd58,L"ShieldJsonData",0x1e);
+  atexit((_func_5014 *)&LAB_143e6ecd0);
+  return;
+}
+
+
+
+// FUNCTION 140217e40 `dynamic_initializer_for_'StatusStoreKey'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'StatusStoreKey''(void)
+
+void SessionManagerDefs::_dynamic_initializer_for__StatusStoreKey__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edcd8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edcd8,L"ShieldSerialNumber",0x26);
+  atexit((_func_5014 *)&LAB_143e6ecf0);
+  return;
+}
+
+
+
+// FUNCTION 140217ea0 `dynamic_initializer_for_'kAchievementName_SimultaneousInfected'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'kAchievementName_SimultaneousInfected''(void)
+
+void `anonymous_namespace'::_dynamic_initializer_for__kAchievementName_SimultaneousInfected__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edda8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edda8,L"SkinCustomizationHash",0x2c);
+  atexit((_func_5014 *)&LAB_143e6ed10);
+  return;
+}
+
+
+
+// FUNCTION 140217ee0 FUN_140217ee0 body=59 status=ok
+// SIG undefined FUN_140217ee0(void)
+
+void FUN_140217ee0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463ede48,0);
+  FGenericPlatformString::Memcpy(DAT_1463ede48,L"SlaughterChallengesCompletion",0x3c);
+  atexit((_func_5014 *)&LAB_143e6ed30);
+  return;
+}
+
+
+
+// FUNCTION 140217fd0 FUN_140217fd0 body=59 status=ok
+// SIG undefined FUN_140217fd0(void)
+
+void FUN_140217fd0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edc78,0);
+  FGenericPlatformString::Memcpy(DAT_1463edc78,L"TimePlayed",0x16);
+  atexit((_func_5014 *)&LAB_143e6ed50);
+  return;
+}
+
+
+
+// FUNCTION 140218030 `dynamic_initializer_for_'PerfCounter_NumServerMoveCorrections'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'PerfCounter_NumServerMoveCorrections''(void)
+
+void _dynamic_initializer_for__PerfCounter_NumServerMoveCorrections__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463eec60,0);
+  FGenericPlatformString::Memcpy(DAT_1463eec60,L"UnexpectedControlMessage",0x32);
+  atexit((_func_5014 *)&LAB_143e6ed70);
+  return;
+}
+
+
+
+// FUNCTION 1402180f0 `dynamic_initializer_for_'VirtualBonePrefix'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'VirtualBonePrefix''(void)
+
+void VirtualBoneNameHelpers::_dynamic_initializer_for__VirtualBonePrefix__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463eae50,0);
+  FGenericPlatformString::Memcpy(DAT_1463eae50,&DAT_144aadf88,8);
+  atexit((_func_5014 *)&LAB_143e6ed90);
+  return;
+}
+
+
+
+// FUNCTION 140218130 `dynamic_initializer_for_'WasDebuggerStoreKey'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'WasDebuggerStoreKey''(void)
+
+void SessionManagerDefs::_dynamic_initializer_for__WasDebuggerStoreKey__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edd08,0);
+  FGenericPlatformString::Memcpy(DAT_1463edd08,L"Weapon1JsonData",0x20);
+  atexit((_func_5014 *)&LAB_143e6edb0);
+  return;
+}
+
+
+
+// FUNCTION 140218170 FUN_140218170 body=59 status=ok
+// SIG undefined FUN_140218170(void)
+
+void FUN_140218170(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edc88,0);
+  FGenericPlatformString::Memcpy(DAT_1463edc88,L"Weapon1SerialNumber",0x28);
+  atexit((_func_5014 *)&LAB_143e6edd0);
+  return;
+}
+
+
+
+// FUNCTION 1402181b0 `dynamic_initializer_for_'WasDebuggerStoreKey'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'WasDebuggerStoreKey''(void)
+
+void SessionManagerDefs::_dynamic_initializer_for__WasDebuggerStoreKey__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edd18,0);
+  FGenericPlatformString::Memcpy(DAT_1463edd18,L"Weapon2JsonData",0x20);
+  atexit((_func_5014 *)&LAB_143e6edf0);
+  return;
+}
+
+
+
+// FUNCTION 1402181f0 FUN_1402181f0 body=59 status=ok
+// SIG undefined FUN_1402181f0(void)
+
+void FUN_1402181f0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edc98,0);
+  FGenericPlatformString::Memcpy(DAT_1463edc98,L"Weapon2SerialNumber",0x28);
+  atexit((_func_5014 *)&LAB_143e6ee10);
+  return;
+}
+
+
+
+// FUNCTION 140218230 `dynamic_initializer_for_'WasDebuggerStoreKey'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'WasDebuggerStoreKey''(void)
+
+void SessionManagerDefs::_dynamic_initializer_for__WasDebuggerStoreKey__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edd28,0);
+  FGenericPlatformString::Memcpy(DAT_1463edd28,L"Weapon3JsonData",0x20);
+  atexit((_func_5014 *)&LAB_143e6ee30);
+  return;
+}
+
+
+
+// FUNCTION 140218270 FUN_140218270 body=59 status=ok
+// SIG undefined FUN_140218270(void)
+
+void FUN_140218270(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edca8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edca8,L"Weapon3SerialNumber",0x28);
+  atexit((_func_5014 *)&LAB_143e6ee50);
+  return;
+}
+
+
+
+// FUNCTION 1402182b0 `dynamic_initializer_for_'WasDebuggerStoreKey'' body=59 status=ok
+// SIG undefined `dynamic_initializer_for_'WasDebuggerStoreKey''(void)
+
+void SessionManagerDefs::_dynamic_initializer_for__WasDebuggerStoreKey__(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edd38,0);
+  FGenericPlatformString::Memcpy(DAT_1463edd38,L"Weapon4JsonData",0x20);
+  atexit((_func_5014 *)&LAB_143e6ee70);
+  return;
+}
+
+
+
+// FUNCTION 1402182f0 FUN_1402182f0 body=59 status=ok
+// SIG undefined FUN_1402182f0(void)
+
+void FUN_1402182f0(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463edcb8,0);
+  FGenericPlatformString::Memcpy(DAT_1463edcb8,L"Weapon4SerialNumber",0x28);
+  atexit((_func_5014 *)&LAB_143e6ee90);
+  return;
+}
+
+
+
+// FUNCTION 140218330 FUN_140218330 body=59 status=ok
+// SIG undefined FUN_140218330(void)
+
+void FUN_140218330(void)
+
+{
+  TArray<wchar_t,FDefaultAllocator>::ResizeGrow(&DAT_1463eddf8,0);
+  FGenericPlatformString::Memcpy(DAT_1463eddf8,L"WeaponChallengesCompletion",0x36);
+  atexit((_func_5014 *)&LAB_143e6eeb0);
+  return;
+}
+
+
+
+// FUNCTION 140218390 FUN_140218390 body=66 status=ok
+// SIG undefined FUN_140218390(void)
+
+void FUN_140218390(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"EAdditionalTriggeredEffectTargets",1);
+  UObjectCompiledInDeferEnum(FUN_141444720,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402183e0 FUN_1402183e0 body=66 status=ok
+// SIG undefined FUN_1402183e0(void)
+
+void FUN_1402183e0(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"EDrivingOverridePriority",1);
+  UObjectCompiledInDeferEnum(FUN_141444760,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140218430 FUN_140218430 body=66 status=ok
+// SIG undefined FUN_140218430(void)
+
+void FUN_140218430(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"EOakOnlineLobbyConnectivityState",1);
+  UObjectCompiledInDeferEnum(FUN_1414447a0,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140218480 FUN_140218480 body=66 status=ok
+// SIG undefined FUN_140218480(void)
+
+void FUN_140218480(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"EOakOnlineLobbyPlayerPlateState",1);
+  UObjectCompiledInDeferEnum(FUN_1414447e0,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402184d0 FUN_1402184d0 body=66 status=ok
+// SIG undefined FUN_1402184d0(void)
+
+void FUN_1402184d0(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"EOakOnlineLobbyTalkingState",1);
+  UObjectCompiledInDeferEnum(FUN_141444820,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140218520 FUN_140218520 body=66 status=ok
+// SIG undefined FUN_140218520(void)
+
+void FUN_140218520(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"EOakPassiveAbilityHUDIconActivationType",1);
+  UObjectCompiledInDeferEnum(FUN_141444860,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 140218570 FUN_140218570 body=66 status=ok
+// SIG undefined FUN_140218570(void)
+
+void FUN_140218570(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"ESpeedModifierOverridePriority",1);
+  UObjectCompiledInDeferEnum(FUN_1414448a0,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
+
+// FUNCTION 1402185c0 FUN_1402185c0 body=66 status=ok
+// SIG undefined FUN_1402185c0(void)
+
+void FUN_1402185c0(void)
+
+{
+  undefined8 *puVar1;
+  undefined1 local_res8 [32];
+  
+  puVar1 = (undefined8 *)FName::FName(local_res8,L"DrivingOverride",1);
+  UObjectCompiledInDeferStruct(FUN_141444e10,L"/Script/OakGame",*puVar1,0,0);
+  return;
+}
+
+
